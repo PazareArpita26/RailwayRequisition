@@ -1,0 +1,139 @@
+/* Global Styles for the Body Element */
+body {
+    background: 
+        linear-gradient(to bottom right, 
+            rgba(173, 216, 230, 0.424),  /* Light blue color */
+            rgba(0, 123, 255, 0.24)  /* Dark blue color */
+        ),
+        url('http://127.0.0.1:5000/static/image/2.jpg');  /* Use forward slashes for URL paths */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.form-container {
+    background-color: #ffffffd1;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 700px;
+    margin: 50px auto;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    background-color: #0f077d;
+    padding: 23px;
+    margin: -30px -30px 20px -30px;
+    border-radius: 10px 10px 4px 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 30px;
+}
+
+form {
+    padding-top: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #333;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+input, select {
+    padding: 13px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Style for the date field input */
+input[type="date"] {
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #fff;
+    color: #333;
+}
+
+/* When the date input is focused */
+input[type="date"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Style for the select dropdowns */
+.form-group select {
+    padding: 12px;
+    font-size: 16px;
+}
+
+/* Input and select fields */
+.form-group input, .form-group select {
+    font-size: 16px;
+}
+
+/* Error message styling
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+} */
+
+/* Button styling */
+button {
+    background-color: #0f077d;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Hover effect for the submit button */
+button:hover {
+    background-color: #da0909;
+}
+
+
+/* --------Flash msg------ */
+/* .alert {
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #333;
+    font-weight: bold;
+  } */
+
+  /* .alert.error {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+  }
+   */
